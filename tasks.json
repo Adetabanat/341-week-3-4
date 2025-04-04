@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Tagalog",
+        "description": "How to speak Tagalog",
+        "dueDate": "March 30, 2025",
+        "progress": "working on it",
+        "instructor": "Mick Manners",
+        "subject": "Filipino"
+    },
+    {
+        "title": "Spanish",
+        "description": "Learn basic Spanish phrases",
+        "dueDate": "April 15, 2025",
+        "progress": "not started",
+        "instructor": "Carlos Fernandez",
+        "subject": "Spanish"
+    },
+    {
+        "title": "Algebra",
+        "description": "Solve quadratic equations",
+        "dueDate": "May 5, 2025",
+        "progress": "in progress",
+        "instructor": "Alice Thompson",
+        "subject": "Mathematics"
+    },
+    {
+        "title": "World War II History",
+        "description": "Study the causes and effects of WWII",
+        "dueDate": "June 20, 2025",
+        "progress": "completed",
+        "instructor": "John Reynolds",
+        "subject": "History"
+    },
+    {
+        "title": "Python Programming",
+        "description": "Build a simple web scraper",
+        "dueDate": "July 10, 2025",
+        "progress": "working on it",
+        "instructor": "Sarah Kim",
+        "subject": "Computer Science"
+    }
+]
