@@ -2,28 +2,28 @@
 GET http://localhost:3000/users
 
 ### Get a single user
-GET http://localhost:3000/users/67db68fd2f31d775f9062704
+GET http://localhost:3000/users/67efdc0bab286a4701c1253b
 
 ### Create a new user
 POST http://localhost:3000/users
 Content-Type: application/json
 
 {
-    "firstName": "Nick",
-    "lastName": "Ruppe",
+    "firstName": "Dan",
+    "lastName": "Nat",
     "password": "thissimypasswords",
-    "email": "Nick.ruppe@gmail.com"
+    "email": "natty@gmail.com"
 }
 
 ### Update a user
-PUT http://localhost:3000/users/67db68fd2f31d775f9062704
+PUT http://localhost:3000/users/67efdc0bab286a4701c1253b
 Content-Type: application/json
 
 {
-    "firstName": "Noah",
-    "lastName": "Ruppe",
+    "firstName": "Ben",
+    "lastName": "Dark",
     "password": "password1",
-    "email": "noah.ruppe1125@gmail.com"
+    "email": "darkbee@gmail.com"
 }
 
 ### Delete a user

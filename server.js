@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 const app = express();
 const mongdb = require("./data/database");
@@ -62,7 +63,7 @@ app.get("/github/callback", passport.authenticate("github", {
 
 
 
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3000;
 
 
 process.on("uncaughtException", (err, origin)=>{
